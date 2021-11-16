@@ -1,22 +1,25 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+// import Rahul from './component/rahul/Rahul'
+// import Multiple from './component/multiple'
+// import Fragment from './component/fragment'
+// import Firsttask from './component/firsttask'
+// import Literals from './component/literals'
+import Secondtask from './component/secondtask'
+import Image from './component/image'
+import Thirdtask from './component/thirdtask'
+import Welcome from './component/welcome'
+ 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Firsttask /> */}
+        {/* <Literals /> */}
+        {/* <Secondtask /> */}
+        {/* <Image /> */}
+        {/* <Thirdtask /> */}
+        <Welcome />
       </header>
     </div>
   );
