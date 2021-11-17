@@ -19,7 +19,9 @@ if(currDate >= 1 && currDate < 12) {
 function timeChecker() {
     return(
         <>
-        <h1> Hello Sir, {greeting} </h1>
+        <div>
+        <h1> Hello Sir, <span style={cssStyle}>{greeting}</span> </h1>
+        </div>
         </>
     )
 }

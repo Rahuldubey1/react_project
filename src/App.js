@@ -18,8 +18,8 @@ function App() {
         {/* <Literals /> */}
         {/* <Secondtask /> */}
         {/* <Image /> */}
-        {/* <Thirdtask /> */}
-        <Welcome />
+        <Thirdtask />
+        {/* <Welcome /> */}
       </header>
     </div>
   );
