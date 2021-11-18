@@ -79,3 +79,8 @@ h1{
     padding: 60px;
     border-radius: 50px;
 }
+
+button {
+  padding: 20px;
+  border-radius: 20px;
+}

@@ -5,10 +5,11 @@ import './App.css';
 // import Fragment from './component/fragment'
 // import Firsttask from './component/firsttask'
 // import Literals from './component/literals'
-import Secondtask from './component/secondtask'
+// import Secondtask from './component/secondtask'
 import Image from './component/image'
 import Thirdtask from './component/thirdtask'
 import Welcome from './component/welcome'
+import States from './component/states'
  
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
         {/* <Literals /> */}
         {/* <Secondtask /> */}
         {/* <Image /> */}
-        <Thirdtask />
+        {/* <Thirdtask /> */}
         {/* <Welcome /> */}
+        <States / >
       </header>
     </div>
   );
