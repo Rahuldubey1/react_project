@@ -10,6 +10,7 @@ import Image from './component/image'
 import Thirdtask from './component/thirdtask'
 import Welcome from './component/welcome'
 import States from './component/states'
+import Props from './component/props'
  
 function App() {
   return (
@@ -21,7 +22,17 @@ function App() {
         {/* <Image /> */}
         {/* <Thirdtask /> */}
         {/* <Welcome /> */}
-        <States / >
+        <Thirdtask time="hasd" />
+        {/* <States / > */}
+        {/* <Props name="rahul">
+          <p>From arya collage</p>
+        </Props>
+        <Props name="Ayushi">
+          <p>From ajmer</p>
+        </Props>
+        <Props name="Neha">
+          <p>From goa</p>
+        </Props> */}
       </header>
     </div>
   );

@@ -16,12 +16,11 @@ if(currDate >= 1 && currDate < 12) {
     cssStyle.color = 'black';
 }
 
-function timeChecker() {
+const timeChecker= (props) => {
     return(
         <>
-        <div>
-        <h1> Hello Sir, <span style={cssStyle}>{greeting}</span> </h1>
-        </div>
+            <h1> Hello Sir, <span style={cssStyle}>{greeting}</span></h1>
+            <h1>{props.time}</h1>
         </>
     )
 }

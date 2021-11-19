@@ -76,11 +76,19 @@ div {
 
 h1{
   background-color: antiquewhite;
-    padding: 60px;
-    border-radius: 50px;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 button {
   padding: 20px;
   border-radius: 20px;
+}
+
+p {
+  padding: 10px;
+  background-color: coral;
+  border-radius: 20px;
+  text-align: center;
+  font-weight: bolder;
 }
