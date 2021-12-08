@@ -11,6 +11,8 @@ import Thirdtask from './component/thirdtask'
 import Welcome from './component/welcome'
 import States from './component/states'
 import Props from './component/props'
+import Hooks from './component/hooks'
+import Forms from './component/forms'
  
 function App() {
   return (
@@ -21,8 +23,8 @@ function App() {
         {/* <Secondtask /> */}
         {/* <Image /> */}
         {/* <Thirdtask /> */}
-        {/* <Welcome /> */}
-        <Thirdtask time="hasd" />
+        <Forms />
+        {/* <Thirdtask time="hasd" /> */}
         {/* <States / > */}
         {/* <Props name="rahul">
           <p>From arya collage</p>
