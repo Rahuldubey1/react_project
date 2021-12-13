@@ -13,6 +13,7 @@ import States from './component/states'
 import Props from './component/props'
 import Hooks from './component/hooks'
 import Forms from './component/forms'
+import Appp from './component/apiinti'
  
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         {/* <Secondtask /> */}
         {/* <Image /> */}
         {/* <Thirdtask /> */}
-        <Forms />
+        <Appp />
         {/* <Thirdtask time="hasd" /> */}
         {/* <States / > */}
         {/* <Props name="rahul">
